@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+		
+		
+	 <class name="com.testscenarios.Scenario1_StatusCreationAndMakeDefault"/>
+	 	
+      <class name="com.testscenarios.Scenario1_PriorityCreationAndMakeDefault"/>
+      
+      <class name="com.testscenarios.Scenario2_TicketCreation"/>
+      
+      <class name="com.testscenarios.Scenario3_DeletePriority"/>
+      
+      <class name="com.testscenarios.Scenario3_DeleteStatus"/>
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
